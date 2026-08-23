@@ -2,7 +2,7 @@
 ### Implementing Eligibility Propagation in Spiking Neural Networks
 
 **Status:** Active — building from foundations toward full recurrent implementation  
-**Author:** Ishita, Undergraduate ECE Student, TCET Mumbai  
+**Author:** Ishita, Undergraduate Student, Mumbai.  
 **Framework:** Brian2 (Python)  
 **Based on:** Bellec et al. (2020), "A solution to the learning dilemma for recurrent networks of spiking neurons", Nature Communications
 
