@@ -49,7 +49,7 @@ established in the Project Dopamine arc (notebooks 10-12 of
 neuromorphic-experiments). The reward-modulated learning rules explored 
 there connect naturally to e-prop's learning signal mechanism — e-prop 
 can be seen as a generalization that replaces the simple global reward 
-signal with a structured, task-specific error signal.
+signal with a structured, task-specific error signal. 
 
 ---
 
