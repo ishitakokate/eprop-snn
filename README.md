@@ -10,7 +10,7 @@
 
 ## Overview
 
-This repository implements e-prop — eligibility propagation — a biologically 
+This repository implements eligibility propagation (e-prop), a biologically 
 plausible learning algorithm for recurrent spiking neural networks introduced 
 by Bellec et al. in 2020. E-prop bridges the gap between biologically realistic 
 local learning rules (like STDP) and the task performance achievable with 
@@ -21,7 +21,7 @@ backpropagation, using three components:
 3. **Weight update** — eligibility trace × learning signal
 
 Unlike backpropagation through time (BPTT), e-prop is online, local in time, 
-and nearly local in space — making it a serious candidate for implementation 
+and nearly local in space which makes it a serious candidate for implementation 
 on neuromorphic hardware like Intel's Loihi 2.
 
 ---
