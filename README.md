@@ -38,7 +38,13 @@ eprop-snn/
 
 ## Notebooks
 
-*To be populated as implementation progresses.*
+### 01 — E-Prop Foundations
+It implements a minimal e-prop circuit: input → hidden → output, with 
+the hidden→output weight trained via eligibility trace × learning signal. 
+It deemonstrates clean convergence from w=0.3 to reliable output firing after 
+64 trials. It establishes the three core e-prop components and contrasts 
+with STDP as the e-prop adds task-specific error signal to local trace-based 
+learning, enabling goal-directed rather than purely correlational weight updates.
 
 ---
 
