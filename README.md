@@ -50,9 +50,9 @@ learning, enabling goal-directed rather than purely correlational weight updates
 Attempts to train e-prop for millisecond-precision output timing (target: 
 80ms). Documents two failed approaches (learning signal redesign, 
 subthreshold delay neuron) before identifying the correct architectural 
-solution: explicit synaptic transmission delay. Achieves 96% success rate 
+solution: explicit synaptic transmission delay, and achieves 96% success rate 
 with 0.30ms mean timing error after resolving a discrete-time trace 
-sampling artifact. A rigorous debugging narrative demonstrating that 
+sampling artifact. It is a rigorous debugging narrative demonstrating that 
 learning signal design cannot compensate for architectural limitations.
 
 ---
