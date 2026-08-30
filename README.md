@@ -46,6 +46,15 @@ It deemonstrates clean convergence from w=0.3 to reliable output firing after
 with STDP as the e-prop adds task-specific error signal to local trace-based 
 learning, enabling goal-directed rather than purely correlational weight updates.
 
+### 02 — Precise Spike Timing
+Attempts to train e-prop for millisecond-precision output timing (target: 
+80ms). Documents two failed approaches (learning signal redesign, 
+subthreshold delay neuron) before identifying the correct architectural 
+solution: explicit synaptic transmission delay. Achieves 96% success rate 
+with 0.30ms mean timing error after resolving a discrete-time trace 
+sampling artifact. A rigorous debugging narrative demonstrating that 
+learning signal design cannot compensate for architectural limitations.
+
 ---
 
 ## Connection to Project Dopamine
