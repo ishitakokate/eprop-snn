@@ -55,6 +55,17 @@ with 0.30ms mean timing error after resolving a discrete-time trace
 sampling artifact. It is a rigorous debugging narrative demonstrating that 
 learning signal design cannot compensate for architectural limitations.
 
+### 03 — Multi-Neuron Hidden Layer
+Scales e-prop to 5 simultaneously-trained hidden neurons. Documents four 
+experimental attempts, including two uninformative results (task 
+pre-solved by chance; one dead neuron) before identifying that membrane 
+time constant only creates firing-time diversity under continuous 
+integration, not instantaneous threshold crossing. Final architecture 
+(bias-driven neurons with varying tau_mem) produces a clean, 
+theoretically-predictable finding: e-prop assigns credit proportional to 
+each neuron's temporal proximity to the evaluation point, directly 
+following from eligibility trace decay mathematics.
+
 ---
 
 ## Connection to Project Dopamine
