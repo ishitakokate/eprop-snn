@@ -83,7 +83,7 @@ signal with a structured, task-specific error signal.
 
 Bellec, G., Scherr, F., Subramoney, A., Hajek, E., Salaj, D., Legenstein, R., 
 & Maass, W. (2020). A solution to the learning dilemma for recurrent networks 
-of spiking neurons. *Nature Communications*, 11, 3625.  
+of spiking neurons. *Nature Communications*, 11, 3625.
 https://doi.org/10.1038/s41467-020-17236-y
 
 ---
