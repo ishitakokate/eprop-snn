@@ -22,7 +22,7 @@ backpropagation, using three components:
 
 Unlike backpropagation through time (BPTT), e-prop is online, local in time, 
 and nearly local in space which makes it a serious candidate for implementation 
-on neuromorphic hardware like Intel's Loihi 2. 
+on neuromorphic hardware like Intel's Loihi 2..
 
 ---
 
