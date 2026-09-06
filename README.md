@@ -66,6 +66,18 @@ theoretically-predictable finding: e-prop assigns credit proportional to
 each neuron's temporal proximity to the evaluation point, directly 
 following from eligibility trace decay mathematics.
 
+### 04 — Recurrent Connections
+Adds recurrent connections between hidden neurons — the defining e-prop 
+feature from Bellec et al. (2020). Documents extensive debugging of dense 
+all-to-all recurrent connectivity, discovering sharp bistability between 
+silence and runaway synchrony via a 49-condition systematic sweep, 
+unresolved even with E/I balancing. Resolves this by switching to sparse 
+chain connectivity, producing stable single-pass propagation. Demonstrates 
+e-prop credit assignment through genuine recurrent dynamics — neurons 
+firing closer to the evaluation point receive proportionally larger 
+weight updates, extending notebook 03's finding to causally interdependent 
+(not just parallel) architectures.
+
 ---
 
 ## Connection to Project Dopamine
