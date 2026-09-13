@@ -78,6 +78,16 @@ firing closer to the evaluation point receive proportionally larger
 weight updates, extending notebook 03's finding to causally interdependent 
 (not just parallel) architectures.
 
+### 05 — Pattern Classification
+Trains two independent sparse-chain networks to drive a shared output 
+neuron, achieving 100% classification accuracy (10/10 verification 
+trials) discriminating between two input patterns. Investigates whether 
+one chain's frozen weights indicated accidental non-learning (as in 
+notebook 03) or genuine correct behavior — confirms the latter through 
+direct testing. Completes the core e-prop implementation arc (01-05), 
+demonstrating the algorithm can learn genuine input-dependent decisions, 
+not just fixed-timing outputs.
+
 ---
 
 ## Connection to Project Dopamine
