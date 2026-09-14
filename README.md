@@ -86,7 +86,7 @@ one chain's frozen weights indicated accidental non-learning (as in
 notebook 03) or genuine correct behavior — confirms the latter through 
 direct testing. Completes the core e-prop implementation arc (01-05), 
 demonstrating the algorithm can learn genuine input-dependent decisions, 
-not just fixed-timing outputs. 
+not just fixed-timing outputs.
 
 ---
 
