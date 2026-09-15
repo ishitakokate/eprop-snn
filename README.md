@@ -64,7 +64,7 @@ integration, not instantaneous threshold crossing. Final architecture
 (bias-driven neurons with varying tau_mem) produces a clean, 
 theoretically-predictable finding: e-prop assigns credit proportional to 
 each neuron's temporal proximity to the evaluation point, directly 
-following from eligibility trace decay mathematics.
+following from eligibility trace decay mathematics. 
 
 ### 04 — Recurrent Connections
 Adds recurrent connections between hidden neurons, the defining e-prop 
