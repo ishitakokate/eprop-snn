@@ -88,6 +88,16 @@ direct testing. Completes the core e-prop implementation arc (01-05),
 demonstrating the algorithm can learn genuine input-dependent decisions, 
 not just fixed-timing outputs.
 
+### 06 — Robustness to Noisy Learning Signals
+Tests e-prop's pattern classifier under corrupted learning signals 
+(dropout and noise). Discovers that excess training trials (200) mask 
+fragility entirely; reducing to 40 trials reveals sharp breakdown points 
+for both corruption types. Critically, dropout and noise produce opposite 
+failure mechanisms at identical 50% accuracy scores — dropout causes 
+underlearning ("always silent"), noise causes overlearning via spurious 
+signals ("always fires"). Demonstrates that accuracy alone is an 
+insufficient diagnostic metric for neural network failure analysis.
+
 ---
 
 ## Connection to Project Dopamine
