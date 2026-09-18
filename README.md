@@ -98,6 +98,7 @@ underlearning ("always silent"), noise causes overlearning via spurious
 signals ("always fires"). Demonstrates that accuracy alone is an 
 insufficient diagnostic metric for neural network failure analysis.
 
+### 07 — STDP vs. RSTDP vs. E-Prop Comparison
 ---
 
 ## Connection to Project Dopamine
