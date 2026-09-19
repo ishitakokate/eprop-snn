@@ -98,7 +98,17 @@ underlearning ("always silent"), noise causes overlearning via spurious
 signals ("always fires"). Demonstrates that accuracy alone is an 
 insufficient diagnostic metric for neural network failure analysis.
 
-### 07 — STDP vs. RSTDP vs. E-Prop Comparison
+### 07 — E-Prop vs STDP vs R-STDP: A Comparative Analysis
+Directly compares three learning rules on identical architecture and task. 
+Confirms predictions for STDP (chance-level, 52%) and e-prop (perfect, 
+100%), but discovers R-STDP performs below chance (24%) due to a 
+"bootstrap collapse" — naive symmetric reward treatment punishes 
+untrained networks for not-yet-firing on the class that should fire, 
+while rewarding accidental correct silence on the other class, creating 
+a deterministic spiral toward exactly the wrong behavior. Demonstrates 
+that poorly-designed reward signals can be actively worse than no task 
+signal at all — a genuine and counterintuitive finding for reward-modulated 
+neuromorphic learning system design.
 ---
 
 ## Connection to Project Dopamine
