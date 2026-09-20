@@ -76,7 +76,7 @@ chain connectivity, producing stable single-pass propagation. Demonstrates
 e-prop credit assignment through genuine recurrent dynamics — neurons 
 firing closer to the evaluation point receive proportionally larger 
 weight updates, extending notebook 03's finding to causally interdependent 
-(not just parallel) architectures.
+(not just parallel) architectures. 
 
 ### 05 — Pattern Classification
 Trains two independent sparse-chain networks to drive a shared output 
