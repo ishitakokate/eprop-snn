@@ -109,6 +109,9 @@ a deterministic spiral toward exactly the wrong behavior. Demonstrates
 that poorly-designed reward signals can be actively worse than no task 
 signal at all — a genuine and counterintuitive finding for reward-modulated 
 neuromorphic learning system design.
+
+### 07 — 
+
 ---
 
 ## Connection to Project Dopamine
