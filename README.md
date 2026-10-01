@@ -121,7 +121,7 @@ dysregulation costs both sensitivity (5.0x) AND accuracy, producing
 persistent oscillating instability rather than clean degradation. 
 Confirms Project Dopamine's beneficial reward schedule protects sensitivity 
 in a genuinely different context — an actively learning network, not just 
-a passive reward-response neuron.
+a passive reward-response neuron...
 
 ---
 
