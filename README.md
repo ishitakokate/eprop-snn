@@ -110,7 +110,18 @@ that poorly-designed reward signals can be actively worse than no task
 signal at all — a genuine and counterintuitive finding for reward-modulated 
 neuromorphic learning system design.
 
-### 08 —  experiencing an error...
+### 08 — E-Prop Under Dopamine Dysregulation
+Bridges Project Dopamine's adaptive threshold mechanism with the e-prop 
+classifier, testing whether background reward schedule quality affects 
+task learning. Documents three distinct debugging episodes (a kernel-state 
+boolean logic bug, a corrupted function, and an unverified timing 
+assumption) before reaching valid results. Finds mild dysregulation costs 
+sensitivity (2.9x threshold) with zero accuracy impact, while harsh 
+dysregulation costs both sensitivity (5.0x) AND accuracy, producing 
+persistent oscillating instability rather than clean degradation. 
+Confirms Project Dopamine's beneficial reward schedule protects sensitivity 
+in a genuinely different context — an actively learning network, not just 
+a passive reward-response neuron.
 
 ---
 
